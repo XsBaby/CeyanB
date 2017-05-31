@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.bw.xlistview.XListView">
+
+
+    <com.bw.httpclientnews.xlistview.XListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transcriptMode="normal"
+        android:id="@+id/xlistview_id"/>
+
+
+
+</RelativeLayout>
+
